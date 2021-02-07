@@ -1,0 +1,16 @@
+{
+  "name": "weather-power-up",
+  "version": "1.0.0",
+  "description": "a small weather powerup for trello",
+  "main": "index.js",
+  "repository": "https://github.com/josephjguerra/trello-weather-power-up",
+  "author": "josephjguerra <joseph.j.guerra@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "parcel build src/html/*.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

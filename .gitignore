@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules
+
+# dotenv environment variables file
+.env
+
+# ParcelJS cache folder
+.cache/
+
+# ParcelJS build folder
+dist/
