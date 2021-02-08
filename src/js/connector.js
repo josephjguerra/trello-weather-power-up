@@ -5,9 +5,9 @@ window.TrelloPowerUp.initialize({
     .then(function(card) {
       console.log(card);
     if (card.coordinates) {
-      const { latitude, longtidue } = card.coordinates;
+      const { latitude, longitude } = card.coordinates;
       // card has location, so let's fetch the current weather
-      return fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longtidue}&appid=%%APP_ID%%`)
+      return fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=%%APP_ID%%`)
       .then(function(response) {
         return response.json();
       })
